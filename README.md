@@ -3,6 +3,17 @@
 Стартеркит проекта по автоматизации деплоя фронтенда и бэкенда при помощи pm2 (pm2 deploy)
 
 
-<b>ip</b>
-<br><br><br>
+<b>IP адрес </b>
+<br>
 158.160.27.68
+<br><br>
+<b>Frontend</b>
+<br>
+https://okok.nomorepartiesco.ru/
+<br><br>
+<b>Backend</b>
+<br>
+https://api.okok.nomorepartiesco.ru/
+<br><br>
+
+
