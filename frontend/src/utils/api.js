@@ -101,11 +101,6 @@ class Api {
     }
 
     register(email, password) {
-      app.get('/crash-test', () => {
-        setTimeout(() => {
-          throw new Error('Сервер сейчас упадёт');
-        }, 0);
-      });
       return fetch(`${this._address}/signup`, {
         method: 'POST',
         headers: {
@@ -117,11 +112,6 @@ class Api {
     }
 
     login(email, password) {
-      app.get('/crash-test', () => {
-        setTimeout(() => {
-          throw new Error('Сервер сейчас упадёт');
-        }, 0);
-      });
       return fetch(`${this._address}/signin`, {
         method: 'POST',
         headers: {
